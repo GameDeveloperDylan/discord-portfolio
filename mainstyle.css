@@ -1,0 +1,91 @@
+@font-face {
+    /* This will be one font from our fonts folder. Make a new @font-face for every font. */
+    font-family: customFonts;
+    src: url(/fonts/cool-font!.ttf);
+  }
+  /* Here, we're importing fonts from the web. Copy a link into each @import to use a new font. */
+  @import url('https://fonts.googleapis.com/css?family=Bungee');
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+  
+  h1 {
+      text-align: center;
+      font-family: monospace;
+     }
+           p {
+            text-align: center;
+            font-family: mulish, sans-serif;
+            margin-left: 80px;
+            margin-right: 80px;
+           }
+          ul {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: transparent;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: rgb(0, 0, 0);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        li a:hover {
+          background-color: #797979;
+        }
+        
+  
+        body {
+          background-color: #ffffff;
+          background-size: cover;
+        } 
+  
+        .footer {
+          font-family: sans-serif;
+        }
+  
+        .marginNeeded {
+          margin-left: 150px;
+          margin-right: 150px;
+        }
+  
+        .doing {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 30%;
+        }
+  
+        .notification-top-bar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 40px;
+          line-height: 40px;
+          width: 100%;
+          background: #ffae00;
+          text-align: center;
+          color: #FFFFFF;
+          font-family: sans-serif;
+          font-weight: lighter;
+          font-size: 14px;
+        }
+        .notification-top-bar p {
+          padding: 0;
+          margin: 0;
+        }
+        .notification-top-bar p a {
+          padding: 5px 10px;
+          border-radius: 3px;
+          background: #FFF;
+          color: #ff0000;
+          font-weight: bold;
+          text-decoration: none;
+        }
