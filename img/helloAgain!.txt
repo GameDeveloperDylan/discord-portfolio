@@ -1,0 +1,2 @@
+Hello again! Here, you can put images to reference them in your HTML or CSS.
+
